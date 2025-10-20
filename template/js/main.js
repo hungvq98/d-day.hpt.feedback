@@ -1,0 +1,41 @@
+import MobileModule from "./module/MobileModule.js";
+import AosModule from "./module/AosModule.js";
+import BtnToTopModule from "./module/BtnToTopModule.js";
+import PopupModule from "./module/PopupModule.js";
+import SwiperModule from "./module/SwiperModule.js";
+import CountUpModule from "./module/CountUpModule.js";
+import SearchModule from "./module/SearchModule.js";
+import GalleryModule from "./module/GalleryModule.js";
+import TabModule from "./module/TabModule.js";
+import HeaderModule from "./module/HeaderModule.js";
+import CollapseModule from "./module/CollapseModule.js";
+import AnimatedModule from "./module/AnimatedModule.js";
+import TextAniModule from "./module/TextAniModule.js";
+import ComponentModule from "./module/ComponentModule.js";
+import ButtonModule from "./module/ButtonModule.js";
+import CountDownModule from "./module/CountDownModule.js";
+import SmoothScrollModule from "./module/SmoothScrollModule.js";
+import ParticleModule from "./module/ParticleModule.js";
+import BrandScroll from "./module/BrandScroll.js";
+
+window.addEventListener("DOMContentLoaded", () => {
+    TextAniModule();
+    AnimatedModule();
+    AosModule();
+    TabModule();
+    CountUpModule();
+    SwiperModule();
+    MobileModule();
+    BtnToTopModule();
+    HeaderModule();
+    PopupModule();
+    GalleryModule();
+    SearchModule();
+    CollapseModule();
+    ComponentModule();
+    ButtonModule();
+    CountDownModule();
+    SmoothScrollModule();
+    ParticleModule()
+    BrandScroll();
+});
