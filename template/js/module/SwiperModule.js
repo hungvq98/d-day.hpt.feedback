@@ -176,7 +176,8 @@ export default function SwiperModule() {
   });
 
 
-  const detectView = window.innerWidth > 1200;
+  // const detectView = window.innerWidth > 1200;
+  const detectView = false;
   const swiperVs = new Swiper('.homes-slideV__swiper .swiper', {
     // direction: 'vertical',       
     slidesPerView: 1,
@@ -197,6 +198,8 @@ export default function SwiperModule() {
   });
 
   if (detectView) {
+    console.log("gsap");
+    
     const total = swiperVs.slides.length;
     let isAnimating = false;
 
